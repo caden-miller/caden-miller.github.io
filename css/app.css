@@ -1,23 +1,119 @@
-div page {
+.content {
+    display: flex;
+    padding: 5%;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 7.5%;
+    width: 100%;
+    height: 12.5%;
+    text-align: left;
+}
+
+.frame {
     position: fixed;
-    left: 0;
-    top: 0;
+    display: box;
+    /* padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%; */
+    width: 90%;
+    height: 90%;
+    
+    text-align: center;
+    left: 5%;
+    bottom: 5%;
+    top: 5%;
+    right: 5%;
+    border: 1px solid #EEEEEE;
+    background-color: #797D81;
+    z-index: -1;
+}
+
+.background {
+    position: fixed;
+    display: box;
+    white-space: nowrap;
     width: 100%;
     height: 100%;
-    background-color: white;
-    color: white;
-    white-space: nowrap;
-    transition-property: background-color;
-    transition-duration: 1s;
-    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-
+    background-color: #000000;
+    z-index: -2;
 }
 
 
 
-div frame {
-    color: white;
-    background-color: maroon;
-    font-family: sans-serif;
-    text-align: center;
+.header h1{
+    font-size:x-large ;
+    color: antiquewhite;
 }
+
+.header h3{
+    font-size: large;
+    color: antiquewhite;
+    
+}
+
+.navbar {
+    width: 50%;
+    height: 43.75%;
+    flex-direction: column;
+    padding-top: 33.3%;
+    padding-bottom: 33.3%;
+    padding-right: 50%;
+    text-align: left;
+    align-items:flex-start;
+    
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: 0;
+    background: 0 0;
+    border: 1px solid transparent;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border-top-left-radius: 0;
+    text-align: left;
+    color: antiquewhite;
+    
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: antiquewhite;
+    background-color: transparent;
+    
+}
+
+
+
+.tab-content {
+    width: 50%;
+    height: 43.75%;
+    text-align: right;
+    /* padding-top: 33.3%;
+    padding-bottom: 33.3%;
+    padding-left: 50%; */
+    align-self: flex-end;
+
+}
+
+.tab-content p{
+    text-align: right;
+}
+
+.right-top-quarter {
+    width: 50%;
+    height: 43.75%;
+}
+.bottom-left-quarter {
+    width: 50%;
+    height: 43.75%;
+}
+
+

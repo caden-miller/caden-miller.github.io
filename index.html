@@ -8,38 +8,64 @@
     <title>Caden Miller</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
     <div id="page" class>
-        <div id="background">
-            <div id="frame"></div>
-            <div id="constant">
-                <h1>Caden Miller</h1>
-                <h3>Software Engineer</h3>
-                <br><br>
-                <nav class="nav flex-column nav-tabs">
-                    <li id="home button">home</li>
-                    <li id="projects button">projects</li>
-                    <li id="info button">info</li>
-                    <li id="contact button">contact</li>
-                </nav>
+        <div class="background" id="background">
+            <div class="frame" id="frame">
+                
             </div>
-            <div id="content">
-                <div data-type="home" hidden></div>
-                <div data-type="projects" hidden></div>
-                <div data-type="info" hidden></div>
-                <div data-type="contact" hidden></div>
+            <div class="content" id="content">
+                <div class="header" id="header" >
+
+                    <div><h1>Caden Miller</h1></div>
+                    <div><h3>Software Engineer</h3></div>
+                    
+                    
+                </div>
+                <div class="navbar">
+                    <nav>
+                        <div class="nav nav-tabs flex-column" id="navbar" role="tablist">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="projects-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="info-tab" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false">info</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="right-top-quarter">ble</div>
+                <div class="bottom-left-quarter">ble</div>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home tab" tabindex="0"><p>homie</p></div>
+                    <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects tab" tabindex="0">POOPOO</div>
+                    <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="info tab" tabindex="0"></div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact tab" tabindex="0"></div>
+                </div>
             </div>
         </div>
+            
+            
     </div>
+
 
     
     
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/main.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 
 
 </html>
