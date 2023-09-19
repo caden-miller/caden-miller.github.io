@@ -59,7 +59,7 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
         <p className='text-xl mt-5'>
-            I currently am pursuing a Computer Engineering degree at Texas A&M University - College Station with an expected graduation date of 2025. I am interested in anything that has the potential to change the world through software.
+            I currently am pursuing a Computer Engineering degree at Texas A&M University - College Station with an expected graduation date of May 2025. I am interested in anything that has the potential to change the world through software.
         </p>
         <br />
         <div className='flex flex-row w-full h-full'>
