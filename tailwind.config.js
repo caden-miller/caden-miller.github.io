@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      header: ['Source Code Pro'],
+      header: ['Yesteryear'],
     },
   },
   plugins: [],

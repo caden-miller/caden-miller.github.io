@@ -30,10 +30,9 @@ const NavBar = () => {
     ];
 
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
+    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-10'>
         <div className='flex flex-col items-center capitalize'>
-            <h1 className='text-3xl font-header ml-2'>caden miller</h1>
-            <h2 className='text-base font-header ml-2'>software engineer</h2>
+            <h1 className='text-6xl font-header ml-2 pt-3'>caden miller</h1>
         </div>
 
         <ul className='hidden md:flex'>
