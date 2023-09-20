@@ -50,6 +50,14 @@ const About = () => {
       id: 4,
       hobby: "valorant",
     },
+    {
+      id: 5,
+      hobby: "pickleball",
+    },
+    {
+      id: 6,
+      hobby: "hiking",
+    },
   ]
 
   return (
