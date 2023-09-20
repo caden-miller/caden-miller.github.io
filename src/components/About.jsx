@@ -67,7 +67,7 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
         <p className='text-xl mt-5'>
-            I'm a National Merit Finalist from Colleyville, TX. I am a recipient of the President's Endowed Scholarship and member of Aggie Coding Club and TAMU Cybersecurity Club.
+            I'm a National Merit Finalist from Colleyville, TX. I'm a recipient of the President's Endowed Scholarship and member of Aggie Coding Club and TAMU Cybersecurity Club.
         </p>
         <br />
         <div className='flex flex-col sm:flex-row w-full h-full'>
