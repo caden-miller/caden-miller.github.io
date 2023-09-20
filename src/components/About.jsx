@@ -59,20 +59,20 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
         <p className='text-xl mt-5'>
-            I currently am pursuing a Computer Engineering degree at Texas A&M University - College Station with an expected graduation date of May 2025. I am interested in anything that has the potential to change the world through software.
+            I'm a National Merit Finalist from Colleyville, TX. I am a recipient of the President's Endowed Scholarship and member of Aggie Coding Club and TAMU Cybersecurity Club.
         </p>
         <br />
-        <div className='flex flex-row w-full h-full'>
-          <div className='pr-2 w-1/2'>
+        <div className='flex flex-col sm:flex-row w-full h-full'>
+          <div className='sm:w-1/2 text-center sm:text-left'>
             <p className='text-xl font-bold mt-2'>Completed Coursework:</p>
             {courses.map(({id, course}) => (
-              <li key={id} className='hover:scale-105 duration-500 md:list-none text-gray-400'>{course}</li>
+              <li key={id} className='hover:scale-105 duration-500 list-none text-gray-400'>{course}</li>
             ))}
           </div>
-          <div className='w-1/2 text-right'>
+          <div className='sm:w-1/2 text-center sm:text-right'>
             <p className='text-xl font-bold mt-2'>Hobbies:</p>
             {hobbies.map(({id, hobby}) => (
-                <li key={id} className='hover:scale-105 duration-500 capitalize md:list-none text-gray-400'>{hobby}</li>
+                <li key={id} className='hover:scale-105 duration-500 capitalize list-none text-gray-400'>{hobby}</li>
             ))}
           </div>
           
